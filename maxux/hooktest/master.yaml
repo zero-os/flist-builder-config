@@ -1,2 +1,2 @@
 buildscripts:
-  - buildscripts/builder-trigger-yes.sh
+  - buildscripts/builder-trigger-yes-no.sh
