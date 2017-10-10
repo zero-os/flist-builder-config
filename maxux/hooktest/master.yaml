@@ -1,2 +1,3 @@
 buildscripts:
   - buildscripts/builder-trigger.sh
+  - buildscripts/builder-trigger-2.sh
