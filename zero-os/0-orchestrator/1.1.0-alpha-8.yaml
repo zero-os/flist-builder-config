@@ -1,3 +1,0 @@
-buildscripts:
-  - buildscripts/builder-etcd.sh
-  - buildscripts/builder-caddy.sh
