@@ -1,7 +1,7 @@
 buildscripts:
-  - buildscripts/builder-trigger-2.sh
+  - autobuild/gig-flist-build.sh
 
-buildscripts/builder-trigger-2.sh:
+autobuild/gig-flist-build.sh:
   baseimage: ubuntu:16.04
   archives: /tmp/archives
   artifact: result.tar.gz
