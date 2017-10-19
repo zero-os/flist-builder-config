@@ -2,5 +2,5 @@ buildscripts:
  - autobuild/0-stor.sh
 
 autobuild/0-stor.sh:
-  target: /tmp/archives
+  archives: /tmp/archives
   artifact: 0-stor.tar.gz
