@@ -1,0 +1,6 @@
+buildscripts:
+ - buildscripts/builder-orchestrator.sh
+
+buildscripts/builder-orchestrator.sh:
+  archives: /tmp/archives/
+  artifact: 0-orchestrator.tar.gz
