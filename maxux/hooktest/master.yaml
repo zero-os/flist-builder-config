@@ -1,0 +1,7 @@
+buildscripts:
+  - autobuild/gig-flist-build.sh
+
+autobuild/gig-flist-build.sh:
+  baseimage: ubuntu:16.04
+  archives: /tmp/archives
+  artifact: result.tar.gz
