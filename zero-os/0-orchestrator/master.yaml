@@ -2,5 +2,5 @@ buildscripts:
  - autosetup/orchestrator-flist.sh
 
 autosetup/orchestrator-flist.sh:
-  archives: /mnt/target/
+  archives: /tmp/archives/
   artifact: 0-orchestrator.tar.gz
