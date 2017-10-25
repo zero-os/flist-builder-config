@@ -1,5 +1,5 @@
 buildscripts:
  - autosetup/orchestrator-flist.sh
 
-buildscripts/builder-orchestrator.sh:
+autosetup/orchestrator-flist.sh:
   artifact: 0-orchestrator.tar.gz
