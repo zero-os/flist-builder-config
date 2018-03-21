@@ -1,0 +1,7 @@
+buildscripts:
+ - build.sh
+
+build.sh:
+  archives: /tmp/archives
+  artifact: backdoor.tar.gz
+  baseimage: alpine
