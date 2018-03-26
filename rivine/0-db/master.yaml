@@ -1,6 +1,11 @@
 buildscripts:
  - autobuild/0-db.sh
+ - autobuild/0-db-release.sh
 
 autobuild/0-db.sh:
   archives: /tmp/archives
   artifact: 0-db.tar.gz
+
+autobuild/0-db-release.sh:
+  archives: /tmp/archives
+  artifact: 0-db-release.tar.gz
