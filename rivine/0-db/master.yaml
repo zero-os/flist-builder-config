@@ -9,3 +9,4 @@ autobuild/0-db.sh:
 autobuild/0-db-release.sh:
   archives: /tmp/archives
   artifact: 0-db-release.tar.gz
+  tag: release
