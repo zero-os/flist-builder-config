@@ -1,0 +1,7 @@
+buildscripts:
+  - autobuild/tfchain.sh
+
+autobuild/tfchain.sh:
+  baseimage: ubuntu:16.04
+  archives: /tmp/archives
+  artifact: tfchain.tar.gz
