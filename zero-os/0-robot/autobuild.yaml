@@ -1,0 +1,6 @@
+buildscripts:
+ - utils/scripts/autobuild/flist.sh
+
+utils/scripts/autobuild/flist.sh:
+  archives: /tmp/archives
+  artifact: 0-robot.tar.gz
