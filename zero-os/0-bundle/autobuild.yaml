@@ -1,0 +1,7 @@
+buildscripts:
+ - autobuild/0-bundle.sh
+
+autobuild/0-bundle.sh:
+  archives: /tmp/archives
+  artifact: 0-bundle.tar.gz
+  format: binary
