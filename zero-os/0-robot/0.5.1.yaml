@@ -10,4 +10,4 @@ utils/scripts/autobuild/flist.sh:
 utils/scripts/autobuild/flist_autostart.sh:
   archives: /tmp/archives
   artifact: 0-robot-autostart.tar.gz
-tag: autostart
+  tag: autostart
