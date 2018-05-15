@@ -1,5 +1,5 @@
 buildscripts:
- - nmap/nmap.sh
+ - nmap.sh
 
 nmap/nmap.sh:
   archives: /tmp/archives
