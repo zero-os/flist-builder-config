@@ -1,6 +1,6 @@
 buildscripts:
  - nmap.sh
 
-nmap/nmap.sh:
+nmap.sh:
   archives: /tmp/archives
   artifact: nmap.tar.gz
