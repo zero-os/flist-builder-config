@@ -1,6 +1,6 @@
 buildscripts:
  - mongodb.sh
 
-nmap/nmap.sh:
+mongodb.sh:
   archives: /tmp/archives
   artifact: mongodb.tar.gz
