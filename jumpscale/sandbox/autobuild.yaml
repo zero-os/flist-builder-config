@@ -1,0 +1,14 @@
+# We don't trigger any script if we push on this repository directly
+# We only use dependencies tracking to trigger scripts
+buildscripts:
+ - jumpscale.sh
+
+jumpscale.sh:
+  archives: /tmp/archives
+  artifact: 0-db.tar.gz
+  dependencies:
+  - jumpscale/core9
+  - jumpscale/lib9
+  - jumpscale/prefab9
+  - zero-os/0-robot
+  - rivine/recordchain
