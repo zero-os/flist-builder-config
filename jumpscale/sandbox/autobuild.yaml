@@ -5,7 +5,7 @@ buildscripts:
 
 jumpscale.sh:
   archives: /tmp/archives
-  artifact: 0-db.tar.gz
+  artifact: jumpscale-sandbox.tar.gz
   dependencies:
   - jumpscale/core9
   - jumpscale/lib9
