@@ -1,0 +1,7 @@
+buildscripts:
+ - autobuild/zflist.sh
+
+autobuild/zflist.sh:
+  archives: /tmp/archives
+  artifact: zflist.tar.gz
+  format: binary
