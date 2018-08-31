@@ -1,0 +1,6 @@
+buildscripts:
+ - flist.sh
+
+flist.sh:
+  archives: /tmp/archives
+  artifact: ovs.tar.gz
