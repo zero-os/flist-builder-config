@@ -1,0 +1,6 @@
+buildscripts:
+ - utils/flist.sh
+
+utils/flist.sh:
+  archives: /tmp/archives
+  artifact: jumpscale_simple.tar.gz
