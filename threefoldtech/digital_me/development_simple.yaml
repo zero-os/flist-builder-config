@@ -5,3 +5,5 @@ utils/flist.sh:
   baseimage: ubuntu:18.04
   archives: /tmp/archives
   artifact: jumpscale_simple.tar.gz
+  tag: autostart
+
