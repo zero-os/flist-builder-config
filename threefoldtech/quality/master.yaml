@@ -1,7 +1,7 @@
 buildscripts:
  - flist/flist.sh
 
-utils/flist.sh:
+flist/flist.sh:
   baseimage: ubuntu:16.04
   archives: /tmp/archives
 
