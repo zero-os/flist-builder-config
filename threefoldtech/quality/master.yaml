@@ -4,5 +4,6 @@ buildscripts:
 flist/flist.sh:
   baseimage: ubuntu:16.04
   archives: /tmp/archives
+  artifact: testing_flist.tar.gz
 
 
