@@ -1,0 +1,8 @@
+buildscripts:
+ - utils/flist.sh
+
+utils/flist.sh:
+  baseimage: ubuntu:18.04
+  archives: /root/archives
+  artifact: humhub.tar.gz
+  tag: autostart
