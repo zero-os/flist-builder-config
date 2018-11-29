@@ -1,6 +1,0 @@
-buildscripts:
- - utils/flist.sh
-
-utils/flist.sh:
-  archives: /tmp/archives
-  artifact: 0-templates.tar.gz
