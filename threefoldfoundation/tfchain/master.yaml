@@ -1,12 +1,7 @@
 buildscripts:
- - utils/scripts/autobuild/flist.sh
- - utils/scripts/autobuild/flist_autostart.sh
+ - tfchain/autobuild/tfchain.sh
 
-utils/scripts/autobuild/flist.sh:
+tfchainc/autobuild/tfchain.sh:
   archives: /tmp/archives
-  artifact: 0-robot.tar.gz
+  artifact: tfchain.tar.gz
   
-utils/scripts/autobuild/flist_autostart.sh:
-  archives: /tmp/archives
-  artifact: 0-robot-autostart.tar.gz
-  tag: autostart

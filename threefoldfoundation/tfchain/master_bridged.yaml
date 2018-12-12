@@ -1,5 +1,5 @@
 buildscripts:
- - tfchainc/autobuild/tfchain.sh
+ - tfchain/autobuild/tfchain.sh
 
 tfchainc/autobuild/tfchain.sh:
   archives: /tmp/archives
