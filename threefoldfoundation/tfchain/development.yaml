@@ -1,7 +1,7 @@
 buildscripts:
- - tfchain/autobuild/tfchain.sh
+ - autobuild/tfchain.sh
 
-tfchain/autobuild/tfchain.sh:
+autobuild/tfchain.sh:
   archives: /tmp/archives
   artifact: tfchain.tar.gz
   
