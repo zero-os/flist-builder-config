@@ -7,17 +7,19 @@ buildscripts:
 autobuild/tfchain.sh:
   archives: /tmp/archives
   artifact: tfchain.tar.gz
+  tag: tfchain
   
 autobuild/tfchain_autostart.sh:
   archives: /tmp/archives
   artifact: tfchain_autostart.tar.gz
-  tag: autostart
+  tag: autostart-tfchain
 
 autobuild/bridged.sh:
   archives: /tmp/archives
   artifact: bridged.tar.gz
+  tag: bridged
 
 autobuild/bridged_autostart.sh:
   archives: /tmp/archives
   artifact: bridged_autostart.tar.gz
-  tag: autostart
+  tag: autostart-bridged
