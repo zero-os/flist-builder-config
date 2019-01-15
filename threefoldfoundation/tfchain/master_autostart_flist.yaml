@@ -1,6 +1,6 @@
 buildscripts:
  - autobuild/tfchain.sh
- - autobuid/tfchain_autostart.sh
+ - autobuild/tfchain_autostart.sh
  - autobuild/bridged.sh
  - autobuild/bridged_autostart.sh
 
