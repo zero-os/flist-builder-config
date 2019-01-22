@@ -1,6 +1,7 @@
 buildscripts:
  - autobuild/faucet.sh
  - autobuild/faucet_autostart.sh
+ - autobuild/explorer.sh
 
 autobuild/faucet.sh:
   archives: /tmp/archives
@@ -12,4 +13,10 @@ autobuild/faucet_autostart.sh:
   archives: /tmp/archives
   artifact: faucet.tar.gz
   tag: faucet-autostart
+  
+
+autobuild/explorer.sh:
+  archives: /tmp/archives
+  artifact: explorer.tar.gz
+  tag: explorer
   
