@@ -1,0 +1,8 @@
+buildscripts:
+ - autobuild/faucet.sh
+
+autobuild/faucet.sh:
+  archives: /tmp/archives
+  artifact: faucet.tar.gz
+  tag: faucet
+  
