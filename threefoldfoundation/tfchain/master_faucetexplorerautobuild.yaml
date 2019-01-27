@@ -17,7 +17,7 @@ autobuild/tfchain.sh:
 autobuild/tfchain_autostart.sh:
   archives: /tmp/archives
   artifact: tfchain_autostart.tar.gz
-  tag: autostart-tfchain
+  tag: tfchain-autostart
 
 autobuild/bridged.sh:
   archives: /tmp/archives
@@ -27,7 +27,7 @@ autobuild/bridged.sh:
 autobuild/bridged_autostart.sh:
   archives: /tmp/archives
   artifact: bridged_autostart.tar.gz
-  tag: autostart-bridged
+  tag: bridged-autostart
 
 autobuild/faucet.sh:
   archives: /tmp/archives
