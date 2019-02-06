@@ -35,3 +35,6 @@ Build monitoring exists here https://build.grid.tf
 ## Getting the flists
 
 Flists will be generated here https://hub.grid.tf/tf-autobuilder
+
+# Repository Owner
+- [Maxime Daniel](https://github.com/maxux), Telegram: [@maxux](http://t.me/maxux)
