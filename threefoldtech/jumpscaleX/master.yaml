@@ -5,4 +5,4 @@ utils/flist.sh:
   baseimage: ubuntu:18.04
   archives: /tmp/archives
   artifact: JSX.tar.gz
-
+  tag: autostart
